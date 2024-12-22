@@ -3,7 +3,10 @@ This automatically likes all linkedin posts
 
 How to use
 > Go to Linkedin feed
+> 
+>
 > Navigate to your browser console
+>
 > Paste the below script
 
 
