@@ -9,17 +9,17 @@ How to use
 >
 > Paste the below script
 
-// Function to continuously like posts
-function autoLikeFeedPosts() {
-setTimeout(() => {
+
+    // Function to continuously like posts
+    function autoLikeFeedPosts() {
+    setTimeout(() => {
     // Select all posts on the current feed (you might need to adjust the selector if needed)
     const posts = document.querySelectorAll('.feed-shared-update-v2');
-    
     if (posts.length === 0) {
       console.log("No posts found.");
       return;
     }
-
+    
     posts.forEach((post, index) => {
       // Find the "Like" button inside the post
       const likeButton = post.querySelector('button[aria-label="React Like"]:not(.react-button--active)');
