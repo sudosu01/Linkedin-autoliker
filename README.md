@@ -9,7 +9,6 @@ How to use
 >
 > Paste the below script
 
-
 // Function to continuously like posts
 function autoLikeFeedPosts() {
   setTimeout(() => {
@@ -46,4 +45,3 @@ function autoLikeFeedPosts() {
 
 // Start the process
 autoLikeFeedPosts();
-
